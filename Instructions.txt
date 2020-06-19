@@ -1,0 +1,5 @@
+In section "product-template.liquid"
+
+Find: {{ product.description }}
+
+Change to: {% include 'tabbed-description' %}
